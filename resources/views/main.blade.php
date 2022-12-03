@@ -116,7 +116,7 @@
 
 <section class="notice">
     <div class="container-fuid">
-
+        <h5>განცხადებები</h5>
     </div>
 </section>
 
