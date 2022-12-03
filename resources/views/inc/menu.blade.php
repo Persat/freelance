@@ -10,20 +10,19 @@
                     <a class="nav-link active" href="">მთავარი</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">სტუდია</a>
+                    <a class="nav-link" href="">ფრელანსერი</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">სერვისები</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">სერვისი 1</a></li>
-                        <li><a class="dropdown-item" href="#">სერვისი 2</a></li>
-                        <li><a class="dropdown-item" href="#">სერვისი 3</a></li>
-                        <li><a class="dropdown-item" href="#">სერვისი 4</a></li>
-                        <li><a class="dropdown-item" href="#">სერვისი 5</a></li>
-                        <li><a class="dropdown-item" href="#">სერვისი 6</a></li>
-                        <li><a class="dropdown-item" href="#">სერვისი 7</a></li>
-                        <li><a class="dropdown-item" href="#">სერვისი 8</a></li>
-                        <li><a class="dropdown-item" href="#">სერვისი 9</a></li>
+                        <li><a class="dropdown-item" href="#">IT & პროგრამირება</a></li>
+                        <li><a class="dropdown-item" href="#">გრაფიკა & დიზაინი</a></li>
+                        <li><a class="dropdown-item" href="#">მარკეტინიგი & სოც. მარკეტინგი</a></li>
+                        <li><a class="dropdown-item" href="#">ბიზნესი</a></li>
+                        <li><a class="dropdown-item" href="#">კონსულტაცია & რჩევები</a></li>
+                        <li><a class="dropdown-item" href="#">მართლწერა & თარგმნა</a></li>
+                        <li><a class="dropdown-item" href="#">რეკლამა</a></li>
+                        <li><a class="dropdown-item" href="#">მუსიკა & აუდიო/ვიდეო</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -39,12 +38,12 @@
                 <button class="btn searchButton" type="button"><i class="fa fa-search"></i> </button>
             </form> 
 
-            <ul class="navbar-nav">
+            <ul class="navbar-nav langImg">
                 <li class="nav-item">
-                    <a class="nav-link" href="">Geo</a>
+                    <a class="nav-link" href=""> <img src="img\geo.png"> </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Eng</a>
+                    <a class="nav-link" href=""> <img src="img\eng.png"></a>
                 </li>
             </ul>
 
