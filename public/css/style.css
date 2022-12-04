@@ -150,11 +150,13 @@ body {
 }
 
  /* services */
+.serviceBlock {
+    background-color: rgb(255, 254, 247, 0.9);
+}
+
 .services {
     padding:40px;
     position: relative;
-    border: solid 3px rgb(241,157,1,0.1);
-    border-radius: 25px;
 }
 
 .services .square {
@@ -175,15 +177,19 @@ body {
     color: black !important;
 }
 
-
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
 
 .square i {
   transform: rotate(315deg);
   display: block;
   color: #eaf3fa;
   font-size: 40px;
-  padding-top: 17px;
-  padding-right: 14px;
+  /* padding-top: 17px;
+  padding-right: 14px; */
 }
 .services .square::before {
   position: absolute;
@@ -239,8 +245,25 @@ body {
 }
 
 /* Main Page Middle Block: Notice Block Style */
+.noticeBlock {
+    padding-top:3%;
+    padding-left: 7%;
+    padding-bottom: 3%;
+    position: relative;
+    background-color: rgb(241,157,1,0.1);
+}
+
 .noticeBlock h5 {
     text-align: center;
+}
+
+.cardBlock {
+    padding-bottom: 3%;
+}
+
+.card {
+    padding-bottom: 5%;
+    width: 18rem;
 }
 
 /* Footer Block Style */
@@ -306,6 +329,10 @@ body {
 .footerUsers i {
     color: #00a9d3;
     font-size: 20px;
+}
+
+.footerBottom {
+    background-color: rgb(241,157,1,0.1);
 }
 
 /* Media */
