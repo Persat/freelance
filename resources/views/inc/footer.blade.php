@@ -1,93 +1,66 @@
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted">
+<footer class="text-center text-lg-start footerMain">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <!-- Left -->
       <div class="me-5 d-none d-lg-block">
-        <span>Get connected with us on social networks:</span>
+        <span>Freelance ჯგუფი</span>
       </div>
-      <!-- Left -->
   
       <!-- Right -->
       <div class="social">
-<a class="face" href=""><i class="fa fa-facebook-square" aria-hidden="true"></i> </a>
-<a class="insta" href=""><i class="fa fa-instagram" aria-hidden="true"></i> </a>
+        <a class="face" href=""><i class="fa fa-facebook-square" aria-hidden="true"></i> </a>
+        <a class="insta" href=""><i class="fa fa-instagram" aria-hidden="true"></i> </a>
       </div>
       <!-- Right -->
     </section>
     <!-- Section: Social media -->
   
     <!-- Section: Links  -->
-    <section class="">
+    <section class="footerSettings">
       <div class="container text-center text-md-start mt-5">
         <!-- Grid row -->
         <div class="row mt-3">
           <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
+          <div class="col-md-6 col-lg-2 col-xl-3 mx-auto mb-4 footerTerms">
+            <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fas fa-gem me-3"></i>Company name
+              სასარგებლო
             </h6>
-            <p>
-              Here you can use rows and columns to organize your footer content. Lorem ipsum
-              dolor sit amet, consectetur adipisicing elit.
+            <p class="footerQuestion">
+              <a href="" class="text-reset"><i class="fa fa-question-circle me-2"></i>როგორ მუშაობს</a>
+            </p>
+            <p class="footerInfo">
+              <a href="" class="text-reset"><i class="fa fa-info-circle me-2"></i>მომსახურების პირობები</a>
+            </p>
+          </div>
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 footerSocial">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              დაგვიკავშირდით
+            </h6>
+            <p class="footerFb">
+              <a href="" class="text-reset"><i class="fa fa-facebook-square me-2"></i> Facebook</a>
+            </p>
+            <p class="footerInst">
+              <a href="" class="text-reset"><i class="fa fa-instagram me-2"></i> Instagram</a>
+            </p>
+            <p class="footerGoogle">
+              <i class="fa fa-google me-2"></i> example@gmail.com
             </p>
           </div>
           <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 footerStatistic">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Products
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">Angular</a>
+            <h6 class="text-uppercase fw-bold mb-4">სტატისტიკა</h6>
+            <p class="footerNotice">
+              <i class="fa fa-bell me-2"></i> განცხადება: <span> 276 </span> 
             </p>
-            <p>
-              <a href="#!" class="text-reset">React</a>
+            <p class="footerUsers">
+              <i class="fa fa-users me-2"></i> მომხმარებელი: <span> 2836  </span> 
             </p>
-            <p>
-              <a href="#!" class="text-reset">Vue</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Laravel</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Useful links
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">Pricing</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Settings</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Orders</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Help</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-            <p><i class="fa fa-home me-3"></i> New York, NY 10012, US</p>
-            <p>
-              <i class="fa fa-envelope me-3"></i>
-              info@example.com
-            </p>
-            <p><i class="fa fa-phone me-3"></i> + 01 234 567 88</p>
-            <p><i class="fa fa-print me-3"></i> + 01 234 567 89</p>
           </div>
           <!-- Grid column -->
         </div>

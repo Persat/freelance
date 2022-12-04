@@ -48,7 +48,7 @@
                 <div class="col-md-3">
                     <div class="square"><i class="fa fa-code"></i></div>
                     <div class="serv">
-                        <a href=""> <h5>IT & პროგრამირება</h5> </a>
+                        <h5><a href="">  IT & პროგრამირება </a></h5>
                         <p>ლორემ იპსუმ დოლორ სიტ ამეტ კონსექტეტურ ადიპიზიცინგ ელიტ</p>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                 <div class="col-md-3">
                     <div class="square"><i class="fa fa-paint-brush"></i></div>
                     <div class="serv">
-                        <a href=""> <h5>გრაფიკა & დიზაინი</h5> </a>
+                        <h5><a href=""> გრაფიკა & დიზაინი </a></h5>
                         <p>ლორემ იპსუმ დოლორ სიტ ამეტ კონსექტეტურ ადიპიზიცინგ ელიტ</p>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
                 <div class="col-md-3">
                     <div class="square"><i class="fa fa-share-alt"></i></div>
                     <div class="serv">
-                        <a href=""> <h5>მარკეტინგი & სოც. მარკეტინგი</h5> </a>
+                        <h5><a href=""> მარკეტინგი & სოც. მარკეტინგი</a></h5>
                         <p>ლორემ იპსუმ დოლორ სიტ ამეტ კონსექტეტურ ადიპიზიცინგ ელიტ</p>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                 <div class="col-md-3">
                     <div class="square"><i class="fa fa-briefcase"></i></div>
                     <div class="serv">
-                        <a href=""> <h5>ბიზნესი</h5> </a>
+                        <h5><a href=""> ბიზნესი</a></h5>
                         <p>ლორემ იპსუმ დოლორ სიტ ამეტ კონსექტეტურ ადიპიზიცინგ ელიტ</p>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                 <div class="col-md-3">
                     <div class="square"><i class="fa fa-handshake-o"></i></div>
                     <div class="serv">
-                        <a href=""> <h5>კონსულტაცია & რჩევები</h5> </a>
+                        <h5><a href=""> კონსულტაცია & რჩევები </a></h5>
                         <p>ლორემ იპსუმ დოლორ სიტ ამეტ კონსექტეტურ ადიპიზიცინგ ელიტ</p>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                 <div class="col-md-3">
                     <div class="square"><i class="fa fa-language"></i></div>
                     <div class="serv">
-                        <a href=""> <h5>მართლწერა & თარგმნა</h5> </a>
+                        <h5><a href=""> მართლწერა & თარგმნა </a></h5>
                         <p>ლორემ იპსუმ დოლორ სიტ ამეტ კონსექტეტურ ადიპიზიცინგ ელიტ</p>
                     </div>
                 </div>
@@ -96,7 +96,7 @@
                 <div class="col-md-3">
                     <div class="square"><i class="fa fa-bullhorn"></i></div>
                     <div class="serv">
-                        <a href=""> <h5>რეკლამა</h5> </a>
+                        <h5><a href=""> რეკლამა </a></h5>
                         <p>ლორემ იპსუმ დოლორ სიტ ამეტ კონსექტეტურ ადიპიზიცინგ ელიტ</p>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                 <div class="col-md-3">
                     <div class="square"><i class="fa fa-music"></i></div>
                     <div class="serv">
-                        <a href=""> <h5>მუსიკა & აუდიო/ვიდეო</h5> </a>
+                        <h5><a href=""> მუსიკა & აუდიო/ვიდეო </a></h5>
                         <p>ლორემ იპსუმ დოლორ სიტ ამეტ კონსექტეტურ ადიპიზიცინგ ელიტ</p>
                     </div>
                 </div>
@@ -114,7 +114,9 @@
     </div>
 </section>
 
-<section class="notice">
+<div class="clearTwo"></div>
+
+<section class="noticeBlock">
     <div class="container-fuid">
         <h5>განცხადებები</h5>
     </div>

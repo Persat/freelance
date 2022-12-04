@@ -119,6 +119,7 @@ body {
 .title {
     color: #F19D01;
     margin-bottom: 30px;
+    padding-left: 1%;
     position: relative;
 }
 
@@ -174,9 +175,7 @@ body {
     color: black !important;
 }
 
-.services .square:hover i:hover {
-    color: black;
-}
+
 
 .square i {
   transform: rotate(315deg);
@@ -218,7 +217,7 @@ body {
     padding-top: 7px;
     border: 1px dashed;
   }
-.services .serv h5 {
+.services .serv h5 a {
     color: #F19D01;
 }
 
@@ -226,7 +225,7 @@ body {
     text-decoration: none;
 }
 
-.services .serv a h5:hover {
+.services .serv h5 a:hover {
     color: #144F89;
 }
 
@@ -239,6 +238,75 @@ body {
   border-top: 3px solid rgb(0 169 211);
 }
 
+/* Main Page Middle Block: Notice Block Style */
+.noticeBlock h5 {
+    text-align: center;
+}
+
+/* Footer Block Style */
+.footerMain {
+    background-color: rgb(255, 254, 247, 0.9);
+}
+
+.footerSocial a {
+    text-decoration: none;
+}
+
+.footerFb i {
+    color: #144F89;
+    font-size: 20px;
+}
+
+.footerFb:hover {
+    color: #F19D01;
+}
+
+.footerInst i {
+    color: #F19D01;
+    font-size: 20px;
+}
+
+.footerInst:hover {
+    color: #F19D01;
+}
+
+.footerGoogle i {
+    color: #db3236;
+    font-size: 20px;
+}
+
+.footerTerms a {
+    text-decoration: none;
+}
+
+.footerTerms p:hover {
+    color: #F19D01;
+}
+
+.footerQuestion i {
+    color: #144F89;
+    font-size: 20px;
+}
+
+.footerInfo i {
+    color: #F19D01;
+    font-size: 20px;
+}
+
+.footerStatistic span {
+    font-weight: bold;
+    color: #db3236;
+}
+
+.footerNotice i {
+    color: #db3236;
+    font-size: 20px;
+}
+
+.footerUsers i {
+    color: #00a9d3;
+    font-size: 20px;
+}
 
 /* Media */
 @media only screen and (max-width: 768px) {
