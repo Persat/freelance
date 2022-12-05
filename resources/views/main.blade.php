@@ -119,118 +119,120 @@
         </div>
 
         <div class="clearTwo"></div>
+        <div class="container">
 
-        <div class="row">
-
-            <div class="col-md-3 cardBlock">
-                <div class="card"">
-                    <img src="img\webdev.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">ვებ პროგრამირება</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body buttonA">
-                        <a href="#" class="btn btn-warning">სრულად</a>
-                    </div>
-                </div>      
-            </div>
-
-            <div class="col-md-3 cardBlock">
-                <div class="card">
-                    <img src="img\design.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">გრაფიკა და დიზაინი</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body buttonA">
-                        <a href="#" class="btn btn-warning">სრულად</a>
-                    </div>
-                </div>      
-            </div>
-
-            <div class="col-md-3 cardBlock">
-                <div class="card">
-                    <img src="img\socmarketing.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">მარკეტინგი & სოც. მარკეტინგი</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body buttonA">
-                        <a href="#" class="btn btn-warning">სრულად</a>
-                    </div>
-                </div>      
-            </div>
-
-            <div class="col-md-3 cardBlock">
-                <div class="card">
-                    <img src="img\business.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">ბიზნესი</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body buttonA">
-                        <a href="#" class="btn btn-warning">სრულად</a>
-                    </div>
-                </div>      
-            </div>
-
-            <div class="col-md-3 cardBlock">
-                <div class="card">
-                    <img src="img\consultation.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">კონსულტაცია & რჩევები</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body buttonA">
-                        <a href="#" class="btn btn-warning">სრულად</a>
-                    </div>
-                </div>      
-            </div>
-
-            <div class="col-md-3 cardBlock">
-                <div class="card">
-                    <img src="img\translate.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">მართლწერა & თარგმნა</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body buttonA">
-                        <a href="#" class="btn btn-warning">სრულად</a>
-                    </div>
-                </div>      
-            </div>
-
-            <div class="col-md-3 cardBlock">
-                <div class="card">
-                    <img src="img\advert.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">რეკლამა</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body buttonA">
-                        <a href="#" class="btn btn-warning">სრულად</a>
-                    </div>
-                </div>      
-            </div>
-
-            <div class="col-md-3 cardBlock">
-                <div class="card">
-                    <img src="img\music.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">მუსიკა & აუდიო/ვიდეო</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body buttonA">
-                        <a href="#" class="btn btn-warning">სრულად</a>
-                    </div>
-                </div>      
-            </div>
-
-        </div> 
+            <div class="row">
+    
+                <div class="col-md-3 cardBlock">
+                    <div class="card"">
+                        <img src="img\webdev.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">ვებ პროგრამირება</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-body buttonA">
+                            <a href="#" class="btn btn-warning">სრულად</a>
+                        </div>
+                    </div>      
+                </div>
+    
+                <div class="col-md-3 cardBlock">
+                    <div class="card">
+                        <img src="img\design.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">გრაფიკა და დიზაინი</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-body buttonA">
+                            <a href="#" class="btn btn-warning">სრულად</a>
+                        </div>
+                    </div>      
+                </div>
+    
+                <div class="col-md-3 cardBlock">
+                    <div class="card">
+                        <img src="img\socmarketing.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">მარკეტინგი & სოც. მარკეტინგი</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-body buttonA">
+                            <a href="#" class="btn btn-warning">სრულად</a>
+                        </div>
+                    </div>      
+                </div>
+    
+                <div class="col-md-3 cardBlock">
+                    <div class="card">
+                        <img src="img\business.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">ბიზნესი</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-body buttonA">
+                            <a href="#" class="btn btn-warning">სრულად</a>
+                        </div>
+                    </div>      
+                </div>
+    
+                <div class="col-md-3 cardBlock">
+                    <div class="card">
+                        <img src="img\consultation.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">კონსულტაცია & რჩევები</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-body buttonA">
+                            <a href="#" class="btn btn-warning">სრულად</a>
+                        </div>
+                    </div>      
+                </div>
+    
+                <div class="col-md-3 cardBlock">
+                    <div class="card">
+                        <img src="img\translate.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">მართლწერა & თარგმნა</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-body buttonA">
+                            <a href="#" class="btn btn-warning">სრულად</a>
+                        </div>
+                    </div>      
+                </div>
+    
+                <div class="col-md-3 cardBlock">
+                    <div class="card">
+                        <img src="img\advert.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">რეკლამა</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-body buttonA">
+                            <a href="#" class="btn btn-warning">სრულად</a>
+                        </div>
+                    </div>      
+                </div>
+    
+                <div class="col-md-3 cardBlock">
+                    <div class="card">
+                        <img src="img\music.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">მუსიკა & აუდიო/ვიდეო</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-body buttonA">
+                            <a href="#" class="btn btn-warning">სრულად</a>
+                        </div>
+                    </div>      
+                </div>
+    
+            </div> 
+        </div>
 
         <div class="row">
             <div class="col-md-12 moreNotice">
-                <button class="btn">მეტი შემოთავაზება</button>
+                <button class="btn btn-warning">მეტი შემოთავაზება</button>
             </div>
         </div>
 

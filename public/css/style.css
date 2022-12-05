@@ -32,6 +32,10 @@ body {
     width: 100% !important;
 }
 
+.navbar {
+    font-family: nino;
+}
+
 .navMenu img {
     width: 80px;
 }
