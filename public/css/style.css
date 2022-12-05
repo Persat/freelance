@@ -6,8 +6,13 @@
   src: url("/fonts/nino.ttf");
 }
 
+@font-face {
+    font-family: mtavruli;
+    src: url("/fonts/mtavruli.ttf");
+  }
+
 body {
-    font-family: nino !important;
+    font-family: mtavruli !important;
 }
 
 .clear {
@@ -111,8 +116,16 @@ body {
     color: #144F89;
 }
 
+.social .face:hover {
+    color: rgb(20,79,137,0.8);
+}
+
 .social .insta {
     color:#F19D01;
+}
+
+.social .insta:hover {
+    color: rgb(241,157,1,0.8);
 }
 
 /* MainPage Middle Block Style */
@@ -245,16 +258,30 @@ body {
 }
 
 /* Main Page Middle Block: Notice Block Style */
+
 .noticeBlock {
     padding-top:3%;
-    padding-left: 7%;
     padding-bottom: 3%;
     position: relative;
     background-color: rgb(241,157,1,0.1);
 }
 
-.noticeBlock h5 {
+.noticeTitle {
+    padding-left: 15%;
+}
+
+.moreNotice {
     text-align: center;
+}
+
+.moreNotice .btn {
+    background-color: #FF6347;
+    color: #fff;
+}
+
+.moreNotice .btn:hover {
+    background-color: rgb(255, 99, 71, 0.6);
+    color: black;
 }
 
 .cardBlock {
@@ -263,7 +290,7 @@ body {
 
 .card {
     padding-bottom: 5%;
-    width: 18rem;
+    /* width: 18rem; */
 }
 
 /* Footer Block Style */
@@ -343,6 +370,26 @@ body {
 
     .navbar a {
         font-size: 13px;
+    }
+
+    .card h5 {
+        font-size: 15px;
+    }
+
+    .card p {
+        font-size: 15px;
+    }
+
+    .noticeBlock {
+        padding-top:10%;
+    }
+
+    .buttonA a {
+        font-size: 12px !important;
+    }
+
+    .social {
+        float: right !important;
     }
 }
 

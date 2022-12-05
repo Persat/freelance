@@ -6,6 +6,7 @@
 <section class="mainPageHeader">
     <div class="container-fluid">
         <div class="row">
+            
             <div class="col-md-6">
                 <div class="login float-start">
                     @if (Route::has('login'))
@@ -23,12 +24,12 @@
                     @endif
                 </div>
             </div>
+
             <div class="col-md-6">
                 <div class="social float-end">
                     <a class="face" href=""><i class="fa fa-facebook-square" aria-hidden="true"></i> </a>
                     <a class="insta" href=""><i class="fa fa-instagram" aria-hidden="true"></i> </a>
                 </div>
-
             </div>
         </div>
 
@@ -128,7 +129,7 @@
                         <h5 class="card-title">ვებ პროგრამირება</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body buttonA">
                         <a href="#" class="btn btn-warning">სრულად</a>
                     </div>
                 </div>      
@@ -141,7 +142,7 @@
                         <h5 class="card-title">გრაფიკა და დიზაინი</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body buttonA">
                         <a href="#" class="btn btn-warning">სრულად</a>
                     </div>
                 </div>      
@@ -154,7 +155,7 @@
                         <h5 class="card-title">მარკეტინგი & სოც. მარკეტინგი</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body buttonA">
                         <a href="#" class="btn btn-warning">სრულად</a>
                     </div>
                 </div>      
@@ -167,7 +168,7 @@
                         <h5 class="card-title">ბიზნესი</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body buttonA">
                         <a href="#" class="btn btn-warning">სრულად</a>
                     </div>
                 </div>      
@@ -180,7 +181,7 @@
                         <h5 class="card-title">კონსულტაცია & რჩევები</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body buttonA">
                         <a href="#" class="btn btn-warning">სრულად</a>
                     </div>
                 </div>      
@@ -193,7 +194,7 @@
                         <h5 class="card-title">მართლწერა & თარგმნა</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body buttonA">
                         <a href="#" class="btn btn-warning">სრულად</a>
                     </div>
                 </div>      
@@ -206,7 +207,7 @@
                         <h5 class="card-title">რეკლამა</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body buttonA">
                         <a href="#" class="btn btn-warning">სრულად</a>
                     </div>
                 </div>      
@@ -219,13 +220,19 @@
                         <h5 class="card-title">მუსიკა & აუდიო/ვიდეო</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body buttonA">
                         <a href="#" class="btn btn-warning">სრულად</a>
                     </div>
                 </div>      
             </div>
 
         </div> 
+
+        <div class="row">
+            <div class="col-md-12 moreNotice">
+                <button class="btn">მეტი შემოთავაზება</button>
+            </div>
+        </div>
 
 </section>
 

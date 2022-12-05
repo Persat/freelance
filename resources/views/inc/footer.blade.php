@@ -22,7 +22,7 @@
         <!-- Grid row -->
         <div class="row mt-3">
           <!-- Grid column -->
-          <div class="col-md-6 col-lg-2 col-xl-3 mx-auto mb-4 footerTerms">
+          <div class="col-md-4 footerTerms">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">
               სასარგებლო
@@ -36,7 +36,7 @@
           </div>
 
           <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 footerSocial">
+          <div class="col-md-4 footerSocial">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">
               დაგვიკავშირდით
@@ -52,7 +52,7 @@
             </p>
           </div>
           <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 footerStatistic">
+          <div class="col-md-4 footerStatistic">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">სტატისტიკა</h6>
             <p class="footerNotice">
@@ -68,7 +68,7 @@
       </div>
     </section>
     <!-- Section: Links  -->
-  
+    <div class="clearTwo"></div>
     <!-- Copyright -->
     <div class="text-center p-4 footerBottom">
       © 2023 Copyright:
