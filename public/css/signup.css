@@ -1,0 +1,104 @@
+@font-face {
+    font-family: mtavruli;
+    src: url("/fonts/mtavruli.ttf");
+  }
+
+body {
+    font-family: mtavruli;
+}
+
+/* ------------------------- */
+.signUpLogo img {
+    margin-top: 20px;
+    width: 5%;
+}
+
+.signUpBigCard {
+    border: solid rgba(0,0,0,.125) 1px;
+    border-radius: 25px;
+    padding: 5%;
+}
+
+.signupTitle {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.clearSignUp {
+    clear: both;
+    height: 50px;
+  }
+
+.client i {
+    font-size: 25px;
+}
+
+.clientChoose {
+    padding-top: 5%;
+    padding-left: 5%;
+    color: #2D3092;
+}
+
+.freelancer i {
+    font-size: 25px;
+}
+
+.freelanceChoose {
+    padding-top: 5%;
+    padding-left: 5%;
+    color: #2D3092;
+}
+
+.client .btn, .freelancer .btn {
+    background-color: #F7941E;
+}
+
+.client .btn:hover, .freelancer .btn:hover {
+    background-color: rgb(241,157,1,0.8);
+}
+
+.client, .freelancer {
+    padding-bottom: 5%;
+}
+
+.authorization {
+    text-align: center;
+}
+
+
+/* Media Block */
+@media only screen and (max-width: 1440px) {
+    .signUpLogo img {
+        width: 7%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .signUpLogo img {
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .signUpLogo img {
+        width: 15%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .signUpLogo img {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .signUpLogo img {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .signUpLogo img {
+        width: 30%;
+    }
+}

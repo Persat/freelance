@@ -15,13 +15,11 @@
    
                         @else
                         <a class="btn aLog" href="{{ route('login') }}">შესვლა</a>
-
-                        @if (Route::has('register'))
-                        <a class="btn aReg" href="{{ route('register') }}">რეგისტრაცია</a>
                         @endif
                         @endauth
 
-                    @endif
+                        <a class="btn aReg" href="{{ route('signup') }}">რეგისტრაცია</a>
+
                 </div>
             </div>
 
@@ -232,7 +230,7 @@
 
         <div class="row">
             <div class="col-md-12 moreNotice">
-                <button class="btn btn-warning">მეტი შემოთავაზება</button>
+                <button class="btn">მეტი შემოთავაზება</button>
             </div>
         </div>
 

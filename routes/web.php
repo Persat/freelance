@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Middleware\UserAdmin;
 use App\Http\Controllers\MainController;
+use App\Http\Controllers\SignupController;
 
 use App\Http\Controllers\HomeController;
 
@@ -19,6 +20,7 @@ use App\Http\Controllers\HomeController;
 
 // Main Page
 Route::get('/', [MainController::class, 'index'])->name('main');
+Route::get('/signup', [SignupController::class, 'index'])->name('signup');
 
 // Auth Pages
 Auth::routes();
