@@ -11,7 +11,7 @@
                 <div class="login float-start">
                     @if (Route::has('login'))
                     @auth
-                    <a href="{{ url('/home') }}" class="">Home</a>
+                    <a href="{{ url('/home') }}" class="btn aHome">კაბინეტი</a>
    
                         @else
                         <a class="btn aLog" href="{{ route('login') }}">შესვლა</a>

@@ -24,6 +24,36 @@ body {
     clear: both;
     height: 50px;
   }
+
+/* ---------------------------- */
+
+.userPageImg img {
+    width: 70px;
+}
+
+.userHomeName a {
+    font-weight: bold;
+}
+
+.userHomeCard {
+    font-size: 15px;
+}
+
+.userHomeLogout:hover {
+    background-color: rgb(241,157,1,0.8) !important;
+}
+
+.userPagePersonalEdit i {
+    font-size: 25px;
+}
+
+.userPageStudy i {
+    font-size: 20px;
+}
+
+.userPageJob I {
+    font-size: 20px;
+}
   
 /* --------------------------- */
 
@@ -99,6 +129,14 @@ body {
 .aLog:hover {
     background-color: rgb(241,157,1,0.8);
     color: white;
+}
+
+.aHome {
+    background-color: #F19D01;
+}
+
+.aHome:hover {
+    background-color: rgb(241,157,1,0.8);
 }
 
 .aReg {
@@ -292,7 +330,7 @@ body {
     padding-bottom: 3%;
 }
 
-.card {
+.cardBlock .card {
     padding-bottom: 5%;
     /* width: 18rem; */
 }
