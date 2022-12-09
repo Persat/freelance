@@ -53,7 +53,7 @@
         </div>
         <form action="" enctype="multipart/form-data" method="post">
             <div class="modal-body">
-                <input type="text" class="form-control mt-3" placeholder="განათლება">
+                <input type="text" class="form-control mt-3" placeholder="დაწესებულება">
             </div>
         </form>
         <div class="modal-footer">
@@ -81,6 +81,28 @@
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">დახურვა</button>
           <button type="button" class="btn btn-primary">შენახვა</button>
         </div>
+      </div>
+    </div>
+  </div>
+
+  {{-- About Me --}}
+  <div class="modal fade" id="aboutMeModal" tabindex="-1" aria-labelledby="aboutMeModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">სამუშაო გამოცდილება</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form action="" enctype="multipart/form-data" method="post">
+            <div class="modal-body">
+                <textarea class="form-control" name="" id="" rows="6"></textarea>
+            </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">დახურვა</button>
+          <button type="button" class="btn btn-primary">შენახვა</button>
+        </div>
+      </form>
       </div>
     </div>
   </div>

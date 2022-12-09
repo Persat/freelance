@@ -37,42 +37,51 @@
           </div>
           <div class="card mb-4 mb-lg-0">
             <div class="card-body p-0">
-                <p style="padding-top: 5%; padding-left: 5%; margin-bottom: 0px ;">უნარები</p>
+                <p style="padding-top: 5%; padding-left: 5%; margin-bottom: 0px; text-align: center;">უნარები</p>
                 
                 <form action="" enctype="multipart/form-data" method="post">
                 <div class="col-md-12 input-group" style="padding: 2%">
-                    <input type="text" class="form-control mt-3">
-                    <button 
-                          class="btn btn-outline mt-3 userPlusStyle" 
+                    <button
+                          class="btn mt-3 userPlusStyle col-md-12"
                           data-bs-toggle="modal" 
                           data-bs-target="#skillsModal"
                           type="button">
-                      <i class="fa fa-plus" aria-hidden="true"></i></button>   
+                          დაამატე
+                    </button> 
+                       
                 </div>
               <ul class="list-group list-group-flush rounded-3">
                 <li class="list-group-item d-flex justify-content-between align-items-center p-3">
-                  <p class="mb-0">PhP</p>
+                  <p class="mb-0">PhP </p>
+                  <button class="btn btn-warning"><i class="fa fa-trash"></i></button>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center p-3">
                   <p class="mb-0">Python</p>
+                  <button class="btn btn-warning"><i class="fa fa-trash"></i></button>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center p-3">
                   <p class="mb-0">JavaScript</p>
+                  <button class="btn btn-warning"><i class="fa fa-trash"></i></button>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center p-3">
                   <p class="mb-0">C++</p>
+                  <button class="btn btn-warning"><i class="fa fa-trash"></i></button>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center p-3">
                   <p class="mb-0">.Net</p>
+                  <button class="btn btn-warning"><i class="fa fa-trash"></i></button>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center p-3">
                   <p class="mb-0">C#</p>
+                  <button class="btn btn-warning"><i class="fa fa-trash"></i></button>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center p-3">
                   <p class="mb-0">React JS</p>
+                  <button class="btn btn-warning"><i class="fa fa-trash"></i></button>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center p-3">
                   <p class="mb-0">Angular</p>
+                  <button class="btn btn-warning"><i class="fa fa-trash"></i></button>
                 </li>
               </ul>
               </form>
@@ -80,38 +89,46 @@
             </div>
           </div>
         </div>
+        
         <div class="col-lg-8">
           <div class="card mb-4">
             <div class="card-body">
               <form action="" enctype="multipart/form-data" method="post" class="userPagePersonalEdit">
               <div class="row">
-                <p class="">პირადი მონაცემები<a                           data-bs-toggle="modal" 
-                   data-bs-target="#personalModal" 
-                   href="">
-                   <i class="fa fa-plus float-end" aria-hidden="true"></i></a></p>
+                <p class="personalPageTitle">პირადი მონაცემები
+                   <a href="" class="btn addPagePersonalInfo float-end"                        
+                      data-bs-toggle="modal" 
+                      data-bs-target="#personalModal">
+                   <i class="fa fa-plus" aria-hidden="true"></i>
+                   </a>
+                   
+                   <button class="btn editPagePersonalInfo float-start"                        >
+                      <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                   </button>   
+                </p>
                 <hr>
-                <div class="col-sm-3">
+                <div class="col-sm-3 mt-3">
                   <p class="mb-0">სახელი / გვარი</p>
                 </div>
-                <div class="col-sm-9">
+                <div class="col-sm-9 mt-3">
                   <p class="text-muted mb-0">შეავსეთ სახელი / გვარი</p>
                 </div>
               </div>
-              <hr>
+
               <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-3 mt-3">
                   <p class="mb-0">მობ. ნომერი</p>
                 </div>
-                <div class="col-sm-9">
+                <div class="col-sm-9 mt-3">
                   <p class="text-muted mb-0">შეიყვანეთ თქვენი ნომერი</p>
                 </div>
               </div>
-              <hr>
+
               <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-3 mt-3">
                   <p class="mb-0">მისამართი</p>
                 </div>
-                <div class="col-sm-9">
+                <div class="col-sm-9 mt-3">
                   <p class="text-muted mb-0">შეავსეთ მისამართი</p>
                 </div>
               </div>
@@ -127,7 +144,7 @@
                   
                   <form action="" enctype="multipart/form-data" method="post">
                     <div class="col-md-12 input-group">
-                        <input type="text" class="form-control mt-3" placeholder="დაამატეთ...">
+                        
                         <button 
                             data-bs-toggle="modal" 
                             data-bs-target="#eduModal" 
@@ -150,7 +167,7 @@
             <div class="col-md-6">
               <div class="card mb-4 mb-md-0">
                 <div class="card-body">
-                  <p class="userPageJob">სამუშაო გამოცდილება<a href=""><i class="fa fa fa-pencil-square-o float-end" aria-hidden="true"></i></a></p>
+                  <p class="userPageJob">სამუშაო გამოცდილება<a href=""><i class="fa fa-pencil-square-o float-end" aria-hidden="true"></i></a></p>
 
                   <form action="" enctype="multipart/form-data" method="post">
                     <div class="col-md-12 input-group">
@@ -179,11 +196,13 @@
             <div class="col-md-12">
               <div class="card mb-4 mt-3">
                 <div class="card-body">
-                    <form action="" enctype="multipart/form-data" method="post">
+                    {{-- <form action="" enctype="multipart/form-data" method="post"> --}}
                         <textarea class="form-control" rows="6" placeholder="თქვენს შესახებ..."></textarea> 
                         <button class="btn mt-3 col-md-2 userUploadButton">ატვირთვა</button>
-                        <button class="btn mt-3 col-md-2 float-end userDescriptionButton">რედაქტირება</button>
-                    </form>                  
+                        <button class="btn mt-3 col-md-2 float-end userDescriptionButton"
+                                data-bs-toggle="modal" 
+                                data-bs-target="#aboutMeModal">რედაქტირება</button>
+                    {{-- </form> --}}
                 </div>
               </div>
             </div>

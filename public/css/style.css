@@ -82,8 +82,29 @@ body {
     color: #144F89 !important;
 }
 
-.userPagePersonalEdit i {
-    font-size: 25px;
+.personalPageTitle {
+    text-align: center;
+}
+
+.addPagePersonalInfo {
+    background-color: #144F89 !important;
+}
+
+.addPagePersonalInfo:hover {
+    background-color: rgb(20,79,137,0.8) !important;
+}
+
+.editPagePersonalInfo {
+    color: #fff !important;
+    background-color: #F19D01 !important;
+}
+
+.editPagePersonalInfo:hover {
+    background-color: rgb(241,157,1,0.8) !important;
+}
+
+.addPagePersonalInfo i {
+    color: #fff;
 }
 
 .userPageStudy i {
