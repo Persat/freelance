@@ -28,15 +28,18 @@
               <form action="" enctype="multipart/form-data" method="post">
                   <label class="form-label" for="customFile">ატვირთეთ პროფილის სურათი</label>
                   <input type="file" class="form-control" id="#">
-              <div class="d-flex justify-content-center mb-2 mt-3">
-                <button type="button" class="btn userImgUploadButton">ატვირთვა</button>
-              </div>
+                  <div class="d-flex justify-content-center mb-2 mt-3">
+                    <button class="btn userImgUploadButton">ატვირთვა</button>
+                  </div>
+              </form>
               
             </div>
           </div>
           <div class="card mb-4 mb-lg-0">
             <div class="card-body p-0">
                 <p style="padding-top: 5%; padding-left: 5%; margin-bottom: 0px ;">უნარები</p>
+                
+                <form action="" enctype="multipart/form-data" method="post">
                 <div class="col-md-12 input-group" style="padding: 2%">
                     <input type="text" class="form-control mt-3">
                     <button 
@@ -72,7 +75,7 @@
                   <p class="mb-0">Angular</p>
                 </li>
               </ul>
-            </form>
+              </form>
 
             </div>
           </div>
