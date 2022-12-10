@@ -39,7 +39,6 @@
             <div class="card-body p-0">
                 <p style="padding-top: 5%; padding-left: 5%; margin-bottom: 0px; text-align: center;">უნარები</p>
                 
-                <form action="" enctype="multipart/form-data" method="post">
                 <div class="col-md-12 input-group" style="padding: 2%">
                     <button
                           class="btn mt-3 userPlusStyle col-md-12"
@@ -50,6 +49,7 @@
                     </button> 
                        
                 </div>
+              <form action="" enctype="multipart/form-data" method="post">
               <ul class="list-group list-group-flush rounded-3">
                 <li class="list-group-item d-flex justify-content-between align-items-center p-3">
                   <p class="mb-0">PhP </p>
@@ -93,17 +93,19 @@
         <div class="col-lg-8">
           <div class="card mb-4">
             <div class="card-body">
-              <form action="" enctype="multipart/form-data" method="post" class="userPagePersonalEdit">
+              
               <div class="row">
                 <p class="personalPageTitle">პირადი მონაცემები
-                   <a href="" class="btn addPagePersonalInfo float-end"                        
+                   <button class="btn addPagePersonalInfo float-end"                        
                       data-bs-toggle="modal" 
                       data-bs-target="#personalModal">
                    <i class="fa fa-plus" aria-hidden="true"></i>
-                   </a>
+                   </button>
                    
-                   <button class="btn editPagePersonalInfo float-start"                        >
-                      <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                   <button class="btn editPagePersonalInfo float-start"
+                      data-bs-toggle="modal" 
+                      data-bs-target="#EditPersonalModal">
+                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                    </button>   
                 </p>
                 <hr>
@@ -132,7 +134,7 @@
                   <p class="text-muted mb-0">შეავსეთ მისამართი</p>
                 </div>
               </div>
-              </form>
+              
             </div>
           </div>
 
@@ -140,20 +142,24 @@
             <div class="col-md-6">
               <div class="card mb-4 mb-md-0">
                 <div class="card-body">
-                  <p class="userPageStudy">განათლება<a href=""><i class="fa fa fa-pencil-square-o float-end" aria-hidden="true"></i></a></p>
-                  
-                  <form action="" enctype="multipart/form-data" method="post">
-                    <div class="col-md-12 input-group">
-                        
-                        <button 
-                            data-bs-toggle="modal" 
-                            data-bs-target="#eduModal" 
-                            class="btn btn-outline mt-3 userPlusStyle" 
-                            type="button">
-                          <i class="fa fa-plus" aria-hidden="true"></i>
-                        </button>   
-                    </div>
-                  </form>
+                  <p class="userPageStudy">
+                      <button 
+                          data-bs-toggle="modal" 
+                          data-bs-target="#eduModal" 
+                          class="btn btn-outline userPlusStyle float-start" 
+                          type="button">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                      </button> 
+
+                    განათლება
+
+                    <button class="btn btn-outline userEditStyle float-end"
+                      data-bs-toggle="modal" 
+                      data-bs-target="#EditEduModal">
+                      <i class="fa fa fa-pencil-square-o float-end" aria-hidden="true"></i>
+                    </button>
+                  </p>
+  
 
                   <hr>
                   
@@ -167,20 +173,22 @@
             <div class="col-md-6">
               <div class="card mb-4 mb-md-0">
                 <div class="card-body">
-                  <p class="userPageJob">სამუშაო გამოცდილება<a href=""><i class="fa fa-pencil-square-o float-end" aria-hidden="true"></i></a></p>
+                  <p class="userPageJob">სამუშაო გამოცდილება
+                    <button
+                        data-bs-toggle="modal" 
+                        data-bs-target="#jobModal" 
+                        class="btn btn-outline userEditStyle float-end" 
+                        type="button">
+                      <i class="fa fa-pencil-square-o float-end" aria-hidden="true"></i>
+                    </button>
 
-                  <form action="" enctype="multipart/form-data" method="post">
-                    <div class="col-md-12 input-group">
-                        <input type="text" class="form-control mt-3" placeholder="დაამატეთ...">
-                        <button
-                            data-bs-toggle="modal" 
-                            data-bs-target="#jobModal" 
-                            class="btn btn-outline mt-3 userPlusStyle" 
-                            type="button">
-                          <i class="fa fa-plus" aria-hidden="true"></i>
-                        </button>   
-                    </div>
-                  </form>
+                    <button
+                        data-bs-toggle="modal" 
+                        data-bs-target="#jobEditModal" 
+                        class="btn btn-outline userPlusStyle float-start" 
+                        type="button">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                    </button>
                   
                   <hr>
                   

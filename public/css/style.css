@@ -26,6 +26,7 @@ body {
   }
 
 /* ---------------------------- */
+/* Users Block */
 .userImgUploadButton {
     background-color: #F19D01 !important;
 }
@@ -58,6 +59,15 @@ body {
 
 .userPlusStyle:hover {
     background-color: rgb(20,79,137,0.8)!important;
+}
+
+.userEditStyle {
+    color: #fff !important;
+    background-color: #F19D01 !important;
+}
+
+.userEditStyle:hover {
+    background-color: rgb(241,157,1,0.8) !important;
 }
 
 .userPageImg img {
@@ -107,12 +117,12 @@ body {
     color: #fff;
 }
 
-.userPageStudy i {
-    font-size: 20px;
+.userPageStudy {
+    text-align: center;
 }
 
-.userPageJob I {
-    font-size: 20px;
+.userPageJob {
+    text-align: center;
 }
   
 /* --------------------------- */
