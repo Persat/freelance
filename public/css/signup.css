@@ -14,7 +14,7 @@ body {
 }
 
 .signUpBigCard {
-    border: solid rgba(0,0,0,.125) 1px;
+    border: solid #2D3092 4px;
     border-radius: 25px;
     padding: 5%;
 }
