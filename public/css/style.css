@@ -387,13 +387,12 @@ body {
 }
 
 .moreNotice .btn {
-    background-color: #FF6347;
+    background-color: #144F89;
     color: #fff;
 }
 
 .moreNotice .btn:hover {
-    background-color: rgb(255, 99, 71, 0.6);
-    color: black;
+    background-color: rgb(20,79,137,0.9);
 }
 
 .cardBlock {
