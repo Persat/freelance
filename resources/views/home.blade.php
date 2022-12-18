@@ -2,7 +2,6 @@
 @extends('layouts.appModals')
 
 @section('content')
-
 <section style="background-color: #eee;">
     <div class="container py-5">
       <div class="row">
@@ -45,7 +44,9 @@
                           data-bs-toggle="modal" 
                           data-bs-target="#skillsModal"
                           type="button">
+
                           დაამატე
+                          
                     </button> 
                        
                 </div>
@@ -95,7 +96,10 @@
             <div class="card-body">
               
               <div class="row">
-                <p class="personalPageTitle">პირადი მონაცემები
+                <p class="personalPageTitle">
+                  
+                  პირადი მონაცემები
+
                    <button class="btn addPagePersonalInfo float-end"                        
                       data-bs-toggle="modal" 
                       data-bs-target="#personalModal">
@@ -160,12 +164,13 @@
                     </button>
                   </p>
   
-
                   <hr>
                   
-                  <p class="mb-1">სამხატვრო აკადემია</p>
-                  <p class="mt-4 mb-1">3D დიზაინის კურსები</p>
-                  <p class="mt-4 mb-1">მაგისტრი</p>
+                  <div class="educationH5Titles">
+                    <p class="mb-1">სამხატვრო აკადემია</p>
+                    <p class="mt-4 mb-1">3D დიზაინის კურსები</p>
+                    <p class="mt-4 mb-1">მაგისტრი</p>
+                  </div>
 
                 </div>
               </div>
@@ -173,7 +178,10 @@
             <div class="col-md-6">
               <div class="card mb-4 mb-md-0">
                 <div class="card-body">
-                  <p class="userPageJob">სამუშაო გამოცდილება
+                  <p class="userPageJob">
+                    
+                    სამუშაო გამოცდილება
+
                     <button
                         data-bs-toggle="modal" 
                         data-bs-target="#jobModal" 
@@ -192,8 +200,10 @@
                   
                   <hr>
                   
-                  <p class="mb-1">ავეჯის სალონი "მოდი გააკეთე"</p>
-                  <p class="mt-4 mb-1">სადიზაინერო სტუდია "შექმენი"</p>
+                  <div class="jobH5Titles">
+                    <p class="mb-1">ავეჯის სალონი "მოდი გააკეთე"</p>
+                    <p class="mt-4 mb-1">სადიზაინერო სტუდია "შექმენი"</p>
+                  </div>
 
                 </div>
               </div>
