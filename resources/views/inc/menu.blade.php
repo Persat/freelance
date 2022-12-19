@@ -6,15 +6,16 @@
     </button>
         <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
-{{-- 
-                <li class="nav-item">
-                    <a class="nav-link active" href="">მთავარი</a>
-                </li>
---}}
 
                 <li class="nav-item">
                     <a class="nav-link active" href="">ფრილანსერი</a>
                 </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="">გვერდის შესახებ</a>
+                </li>
+                
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">სერვისები</a>
                     <ul class="dropdown-menu">
@@ -28,7 +29,7 @@
                         <li><a class="dropdown-item" href="#">მუსიკა & აუდიო/ვიდეო</a></li>
                     </ul>
                 </li>
-                
+
                 <li class="nav-item">
                     <a class="nav-link" href="">კონტაქტი</a>
                 </li>
