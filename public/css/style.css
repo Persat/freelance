@@ -27,16 +27,16 @@ body {
 
 /* ---------------------------- */
 /* Users Block */
-.userImgUploadButton {
+.userChangeNameButton, .userImgUploadButton, .userTextAreaUploadButton {
     background-color: #F19D01 !important;
+}
+
+.userChangeNameButton:hover {
+    background-color: rgb(241,157,1,0.8) !important;
 }
 
 .userImgUploadButton:hover {
     background-color: rgb(241,157,1,0.8) !important;
-}
-
-.userUploadButton {
-    background-color: #F19D01 !important;
 }
 
 .userUploadButton:hover {

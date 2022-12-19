@@ -18,12 +18,24 @@
         <div class="col-lg-4">
           <div class="card mb-4">
             <div class="card-body text-center">
+
               <img src="img/userphoto/pakistan.png" alt="avatar"
                    class="img-fluid" style="width: 150px;">
               <h5 class="my-3" style="color: #144F89;">{{ Auth::user()->name }}</h5>
               <p class="text-muted mb-1">პროფესია</p>
               <p class="text-muted mb-4">მისამართი</p>
 
+
+              <form class="d-flex">
+                  <input class="form-control me-2" type="text" placeholder="სახელის შეცვლა">
+                  <button class="btn userChangeNameButton" type="button"><i class="fa fa-check"></i> </button>
+              </form> 
+
+              <form class="d-flex">
+                  <input class="form-control me-2" type="file" placeholder="ფაილის ატვირთვა">
+                  <button class="btn userImgUploadButton" type="button"><i class="fa fa-upload"></i> </button>
+              </form> 
+{{-- 
               <form action="" enctype="multipart/form-data" method="post">
                   <label class="form-label" for="customFile">ატვირთეთ პროფილის სურათი</label>
                   <input type="file" class="form-control" id="#">
@@ -31,7 +43,24 @@
                     <button class="btn userImgUploadButton">ატვირთვა</button>
                   </div>
               </form>
-              
+--}}
+
+            <hr>
+            
+            <form class="col-md-12">
+              <div class="d-flex justify-content-center mt-3">
+                <button 
+                      class="btn btn-danger userAccountDelete col-md-12"
+                      data-bs-toggle="modal" 
+                      data-bs-target="#accountDeleteModal"
+                      type="button">
+
+                      ექაუნთის გაუქმება
+                
+                </button>
+              </div>
+            </form> 
+
             </div>
           </div>
           <div class="card mb-4 mb-lg-0">
@@ -216,7 +245,7 @@
                 <div class="card-body">
                     {{-- <form action="" enctype="multipart/form-data" method="post"> --}}
                         <textarea class="form-control" rows="6" placeholder="თქვენს შესახებ..."></textarea> 
-                        <button class="btn mt-3 col-md-2 userUploadButton">ატვირთვა</button>
+                        <button class="btn mt-3 col-md-2 userTextAreaUploadButton">ატვირთვა</button>
                         <button class="btn mt-3 col-md-2 float-end userDescriptionButton"
                                 data-bs-toggle="modal" 
                                 data-bs-target="#aboutMeModal">რედაქტირება</button>

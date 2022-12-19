@@ -1,23 +1,21 @@
 
   {{-- SKILLS MODAL --}}
-  
-  {{-- Skills Modal --}}
   <div class="modal fade" id="skillsModal" tabindex="-1" aria-labelledby="skillsModal" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">უნარები</h5>
+          <h5 class="modal-title" id="skillsModal">უნარები</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <form action="" enctype="multipart/form-data" method="post">
         <div class="modal-body">
             <input type="text" class="form-control mt-3" placeholder="დაამატეთ...">
         </div>
-        </form>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">დახურვა</button>
           <button type="button" class="btn btn-primary">შენახვა</button>
         </div>
+        </form>
       </div>
     </div>
   </div>
@@ -30,7 +28,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">პერსონალური ინფორმაციის დამატება</h5>
+          <h5 class="modal-title" id="personalModal">პერსონალური ინფორმაციის დამატება</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <form action="" enctype="multipart/form-data" method="post">
@@ -39,11 +37,11 @@
                 <input type="text" class="form-control mt-3" placeholder="ტელ. ნომერი">
                 <input type="text" class="form-control mt-3" placeholder="მისმარათი">
             </div>
-        </form>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">დახურვა</button>
           <button type="button" class="btn btn-primary">შენახვა</button>
         </div>
+        </form>
       </div>
     </div>
   </div>
@@ -53,7 +51,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">პერსონალური ინფორმაციის რედაქტირება</h5>
+          <h5 class="modal-title" id="EditPersonalModal">პერსონალური ინფორმაციის რედაქტირება</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <form action="" enctype="multipart/form-data" method="post">
@@ -62,11 +60,11 @@
                 <input type="text" class="form-control mt-3" placeholder="ტელ. ნომერი">
                 <input type="text" class="form-control mt-3" placeholder="მისმარათი">
             </div>
-        </form>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">დახურვა</button>
           <button type="button" class="btn btn-primary">შენახვა</button>
         </div>
+        </form>
       </div>
     </div>
   </div>
@@ -79,18 +77,18 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">დაწესებულების დამატება</h5>
+          <h5 class="modal-title" id="eduModal">დაწესებულების დამატება</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <form action="" enctype="multipart/form-data" method="post">
             <div class="modal-body">
                 <input type="text" class="form-control mt-3" placeholder="დაწესებულება">
             </div>
-        </form>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">დახურვა</button>
           <button type="button" class="btn btn-primary">შენახვა</button>
         </div>
+        </form>
       </div>
     </div>
   </div>
@@ -100,18 +98,18 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">დაწესებულების რედაქტირება</h5>
+          <h5 class="modal-title" id="editEduModal">დაწესებულების რედაქტირება</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <form action="" enctype="multipart/form-data" method="post">
             <div class="modal-body">
                 <input type="text" class="form-control mt-3" placeholder="დაწესებულება">
             </div>
-        </form>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">დახურვა</button>
           <button type="button" class="btn btn-primary">შენახვა</button>
         </div>
+        </form>
       </div>
     </div>
   </div>
@@ -124,18 +122,18 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">სამუშაო გამოცდილება</h5>
+          <h5 class="modal-title" id="jobModal">სამუშაო გამოცდილება</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <form action="" enctype="multipart/form-data" method="post">
             <div class="modal-body">
                 <input type="text" class="form-control mt-3" placeholder="სამუშაო გამოცდილება">
             </div>
-        </form>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">დახურვა</button>
           <button type="button" class="btn btn-primary">შენახვა</button>
         </div>
+        </form>
       </div>
     </div>
   </div>
@@ -145,18 +143,18 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">სამუშაო გამოცდილების დამატება</h5>
+          <h5 class="modal-title" id="jobEditModal">სამუშაო გამოცდილების დამატება</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <form action="" enctype="multipart/form-data" method="post">
             <div class="modal-body">
                 <input type="text" class="form-control mt-3" placeholder="სამუშაო გამოცდილება">
             </div>
-        </form>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">დახურვა</button>
           <button type="button" class="btn btn-primary">შენახვა</button>
         </div>
+        </form>
       </div>
     </div>
   </div>
@@ -169,7 +167,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">სამუშაო გამოცდილება</h5>
+          <h5 class="modal-title" id="aboutMeModal">სამუშაო გამოცდილება</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <form action="" enctype="multipart/form-data" method="post">
@@ -180,6 +178,28 @@
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">დახურვა</button>
           <button type="button" class="btn btn-primary">შენახვა</button>
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+
+  {{-- --------------------------------------------------- --}}
+  {{-- ACCOUNT DELETE MODAL --}}
+  <div class="modal fade" id="accountDeleteModal" tabindex="-1" aria-labelledby="skillsModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="accountDeleteModal">ექაუნთის გაუქმება</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form action="" enctype="multipart/form-data" method="post">
+        <div class="modal-body">
+            <input type="text" class="form-control mt-3" placeholder="შეიყვანეთ თქვენი EMail">
+        </div>      
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">დახურვა</button>
+          <button type="button" class="btn btn-primary">დადასტურება</button>
         </div>
       </form>
       </div>

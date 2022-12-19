@@ -28,11 +28,7 @@
                         <li><a class="dropdown-item" href="#">მუსიკა & აუდიო/ვიდეო</a></li>
                     </ul>
                 </li>
-{{--                 
-                <li class="nav-item">
-                    <a class="nav-link" href="">ბლოგი</a>
-                </li>
---}}
+                
                 <li class="nav-item">
                     <a class="nav-link" href="">კონტაქტი</a>
                 </li>
